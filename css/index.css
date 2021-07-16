@@ -24,18 +24,22 @@ html{
     font-size:62.5%;
 }
 body{
-    font-size:1.6rem;
-    line-height: 1.5;
-    font-family: 'Raleway', sans-serif;	
+    /* font-size:.3rem; */
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;	
 }
 h1, p, .name, .bio {	
-    font-family: 'Raleway', sans-serif;	
+    font-family:'Open Sans', sans-serif;	
     text-align: center;	
     margin: 4%;	
 }	
 h1{
-    font-size:6rem;
+    
+    font-size:4rem;
     margin:0;
+}
+h2{
+    font-size: .1rem;
 }
 a {	
     text-decoration: none;	
@@ -46,7 +50,7 @@ a:hover {
     font-weight: bold;	
 }	
 .name{	
-    font-size: 150%;	
+    font-size: 100%;	
     font-weight: 200;	
 }	
 img {	
@@ -65,20 +69,28 @@ img:hover {
 
 /*HEADER STYLES */
 header{
-    display:flex;
+    display: flex;
     justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 nav{
     width:30%;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
+    text-align: center;
     margin-top:5%;
 }
 nav a{
-    color:#626262;
+    display:flex;
+    justify-content:space-between;
+    /* flex-wrap: wrap; */
+    margin-top:5%;
+    font-size: .5rem;
+    color:#e40f0f;
 }
 nav span{
-    border-left:3px solid #626262;
+    border-left:1px solid#626262;
 
 }
 /*Title Section Styles*/
